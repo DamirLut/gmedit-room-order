@@ -1,0 +1,6 @@
+{
+  "name": "room-order",
+  "scripts": ["main.js"],
+  "stylesheets": ["room-order.css"],
+  "git": "DamirLut/gmedit-room-order"
+}

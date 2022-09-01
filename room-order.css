@@ -1,0 +1,25 @@
+.room-order-container {
+  padding: 0.25em;
+}
+
+.room-order-container > h1 {
+  margin: 0.75em 0.25em;
+}
+
+.room-order-container > h5 {
+  margin: 0.75em;
+}
+
+.room-order-container > ul {
+  padding: 0.15em;
+  border: 1px solid #555555;
+}
+
+.room-item {
+  list-style-type: none;
+  padding: 0.5em;
+  margin: 0.25em;
+  border: 1px solid #555555;
+  user-select: none;
+  cursor: move;
+}
