@@ -38,6 +38,7 @@ function OpenRoomOrderPage(yyProject) {
 
   list.addEventListener(`dragend`, (evt) => {
     evt.target.classList.remove(`selected`);
+    saveProject();
   });
 
   list.addEventListener(`dragover`, (evt) => {
@@ -60,7 +61,7 @@ function OpenRoomOrderPage(yyProject) {
     }
 
     list.insertBefore(activeElement, nextElement);
-    saveProject();
+    
   });
 
   const saveProject = () => {
